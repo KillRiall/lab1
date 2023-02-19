@@ -1,0 +1,79 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    background-color: grey;
+    color: white;
+    bottom: 0px;
+    position: sticky;
+    width: 100%;
+
+}
+header{
+    background-image: url("../images/head.jpeg");
+    background-size:cover;
+    width: 100%;
+    height: auto;
+}
+header h1{
+    color:yellow;
+    text-align: center;
+    width: auto;
+    margin-top:0px;
+}
+header h2{
+    margin: 0px;
+    text-align: center;
+    width: auto;
+}
+header img{
+    width: 10%;
+    height: auto;
+}
+ul.side_bar{
+    top: 0px;
+    position: sticky;
+    margin: 0px;
+    padding:0px;
+    background-color:rgb(170, 170, 244);
+}
+ul.side_bar a{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    line-height: 3;
+    color: black;
+}
+ul.side_bar li {
+    display: inline;
+}
+ul.side_bar a:hover{
+    background-color: #fffb81;
+}
+.news{
+    max-width: 100%;
+    height: auto;
+    display:inline-block;
+}
+.shrort_news{
+    float: left;
+    display: block;
+    width: 29%;
+    padding: 2%;
+    height: 380px;
+    text-align:justify;
+    margin: 0px;
+    
+}
+.shrort_news img{
+    width: 100%;
+    display:block;
+}
+.shrort_news h5{
+    margin:0px;
+}
+p.time{
+    font-size: 12px;
+    color:gray;
+}
