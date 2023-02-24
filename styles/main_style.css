@@ -103,7 +103,7 @@ ul.side_bar a:hover{
         display: block;
         padding: 2%;
         width: 46%;
-        height: 380px;
+        height: 420px;
         text-align:justify;
         margin-bottom: 3em;
     }
@@ -133,6 +133,7 @@ ul.side_bar a:hover{
 }
 .shrort_news p{
     margin-bottom: 0px;
+    font-size: 14px;
 }
 p.time{
     font-size: 12px;
