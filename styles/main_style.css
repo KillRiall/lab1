@@ -50,11 +50,12 @@ ul.side_bar{
     position: sticky;
     margin: 0px;
     padding:0px;
-    background-color: #7e1535;
 }
 ul.side_bar a{
-    display: inline-block;
-    width: 33%;
+    background-color: #7e1535;
+    float:left;
+    display: block;
+    width: 33.33%;
     text-align: center;
     line-height: 3;
     color: whitesmoke;
