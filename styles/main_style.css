@@ -83,6 +83,8 @@ ul.side_bar a:hover{
     font-size: 20px;
     color: #e7e7e7;
 }
+@media screen and (min-width: 800px)
+{
 .shrort_news{
     float: left;
     display: block;
@@ -92,7 +94,19 @@ ul.side_bar a:hover{
     text-align:justify;
     margin-bottom: 3em;
 }
-
+}
+@media screen and (max-width: 800px)
+{
+    .shrort_news{
+        float: left;
+        display: block;
+        padding: 2%;
+        width: 46%;
+        height: 380px;
+        text-align:justify;
+        margin-bottom: 3em;
+    }
+}
 .shrort_news img{
     max-width: 100%;
     display:block;
