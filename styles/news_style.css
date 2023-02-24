@@ -1,10 +1,19 @@
 .news{
-    margin: 20px;
+    margin: 4%;
+    width: 92%;
 }
 img{
     width: 550px;
     height: auto;
     border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 .news p{
     text-align:justify;

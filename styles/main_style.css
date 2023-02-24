@@ -68,7 +68,7 @@ ul.side_bar a:hover{
     background-color: #470620;
 }
 .news{
-    max-width: 100%;
+    width: 100%;
     height: auto;
     display:inline-block;
     margin-bottom: 100px;
